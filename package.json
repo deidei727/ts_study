@@ -1,0 +1,15 @@
+{
+  "name": "ts_study",
+  "version": "1.0.0",
+  "description": "ts是js的超集，简言之ts包含js。所以js基础类型都包含在内",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.1"
+  }
+}
