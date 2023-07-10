@@ -12,6 +12,7 @@ let content: string[] = "nihao".split("");
 let Arr: number[] = new Array(canvas.width / 10).fill(0);
 const rain = ():void=> {
   ctx.fillStyle = "rgba(0,0,0,0.05)";
+//   定义画布的填充的位置
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "#0f0";
 

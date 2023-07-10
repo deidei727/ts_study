@@ -10,6 +10,7 @@ let content = "nihao".split("");
 let Arr = new Array(canvas.width / 10).fill(0);
 const rain = () => {
     ctx.fillStyle = "rgba(0,0,0,0.05)";
+    //   定义画布的填充的位置
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = "#0f0";
     // 开始下雨，每一个小格都要下雨
